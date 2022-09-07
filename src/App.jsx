@@ -2,6 +2,7 @@
 import { Parallax } from 'react-scroll-parallax'
 import { BotonesMenu } from './components/BotonesMenu'
 import { Section1 } from './components/Section1'
+import { Section2 } from './components/Section2'
 
 
 
@@ -14,7 +15,7 @@ function App() {
           <Section1 />        
       </Parallax>
       <Parallax>       
-          <Section1 />        
+          <Section2 />        
       </Parallax>
     </div>
   )
