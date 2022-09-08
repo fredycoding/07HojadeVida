@@ -3,7 +3,7 @@ import { CardJobs } from "./CardJobs"
 
 export const Section3 = () => {
   return (
-    <div className='Section3Background animate__animated animate__fadeInDownBig'>
+    <div className='animate__animated animate__fadeInDownBig'>
     <div className="w-full h-screen bg-no-repeat bg-cover bg-left bg-fixed">
       <div className='flex flex-col justify-start md:justify-center pt-12 md:pt-20 h-screen pl-6 md:pl-40 relative animate__animated animate__backInRight'>
         <h1 className=' text-4xl font-normal text-slate-900'>Trabajos</h1>
