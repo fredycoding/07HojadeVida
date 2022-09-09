@@ -5,7 +5,7 @@ import Perrito from '../assets/perro.gif';
 
 
 const names = [
-  'Designer', 'Video Editor', 'Audiovisual Producer'
+  'Developer', 'Video Editor', 'Audiovisual Producer', 'Designer'
 ]
 
 
