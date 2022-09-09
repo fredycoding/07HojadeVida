@@ -4,8 +4,8 @@ export const Section2 = () => {
   return (
     <div className='animate__animated animate__fadeInDownBig'>
       <div className="w-full h-scree">
-        <div className='flex flex-col justify-center  h-screen relative animate__animated animate__backInRight'>
-          <div className='bg-slate-900 bg-opacity-80 border-y-[0.09rem]  border-white py-40 text-center'>
+        <div className='flex flex-col justify-center h-screen relative animate__animated animate__backInRight'>
+          <div className='bg-slate-900 bg-opacity-80 border-y-[0.09rem] border-white py-40 text-center'>
           <h1 className=' text-4xl font-bold text-slate-100 text-center'>PERFIL</h1>
           <div className='text-2xl mx-2 md:mx-96'>
             <p className='mt-4 text-slate-300'>
