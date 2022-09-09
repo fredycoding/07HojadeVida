@@ -4,15 +4,9 @@ export const Section2 = () => {
   return (
     <div className='animate__animated animate__fadeInDownBig'>
       <div className="w-full h-scree">
-<<<<<<< HEAD
-        <div className='flex flex-col justify-center h-screen relative animate__animated animate__backInRight'>
-          <div className='bg-slate-900 bg-opacity-80 border-y-[0.09rem] border-white py-40 text-center'>
-          <h1 className=' text-4xl font-bold text-slate-100 text-center'>PERFIL</h1>
-=======
         <div className='flex flex-col justify-center  h-screen relative animate__animated animate__backInRight'>
           <div className='bg-slate-900 bg-opacity-80 border-y-[0.09rem]  border-white py-40 text-center'>
           <h1 className=' text-4xl font-bold text-slate-100 text-center'>PROFILE</h1>
->>>>>>> master
           <div className='text-2xl mx-2 md:mx-96'>
             <p className='mt-4 text-slate-300'>
               Programmer and Developer with more than 18 years of experience in Back-End and developments implemented with .NET, JAVA, C++, JAVASCRIPT, PYTHON, DJANGO</p>
