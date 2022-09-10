@@ -1,11 +1,11 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Play:wght@400;700&display=swap');
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
 
 body{
-    font-family: 'Roboto', sans-serif;
+  font-family: 'Play', sans-serif;
 }
 
 video {
@@ -64,23 +64,13 @@ video {
 	grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); 
    }
 
-   .glow {
+   .title-section {
     font-size: 2.5rem;
     color: #fff;
     text-align: center;
-    -webkit-animation: glow 1s ease-in-out infinite alternate;
-    -moz-animation: glow 1s ease-in-out infinite alternate;
-    animation: glow 1s ease-in-out infinite alternate;
+    font-weight: bold;
   }
-  
-  @-webkit-keyframes glow {
-    from {
-      text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #8e00e6, 0 0 40px #8e00e6, 0 0 50px #a500e6, 0 0 60px #8e00e6, 0 0 70px #8e00e6;
-    }
-    to {
-      text-shadow: 0 0 20px #fff, 0 0 30px #7c4dff, 0 0 40px #7c4dff, 0 0 50px #7c4dff, 0 0 60px #7c4dff, 0 0 70px #7c4dff, 0 0 80px #7c4dff;
-    }
-  }
+
 
   .videosize {
    
