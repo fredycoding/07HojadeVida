@@ -19,8 +19,8 @@ video {
   }
 
 
-  button {
-    --green: #1bdffd;
+  a {
+    --green: #1ba6fd;
     font-size: 15px;
     padding: 0.7em 2.7em;
     letter-spacing: 0.06em;
@@ -31,17 +31,17 @@ video {
     transition: all 0.3s;
     line-height: 1.4em;
     border: 2px solid var(--green);
-    background: linear-gradient(to right, rgba(27, 253, 156, 0.1) 1%, transparent 40%,transparent 60% , rgba(27, 253, 156, 0.1) 100%);
+    background: linear-gradient(to right, rgba(27, 204, 253, 0.1) 1%, transparent 40%,transparent 60% , rgba(27, 132, 253, 0.1) 100%);
     color: var(--green);
-    box-shadow: inset 0 0 10px rgba(27, 253, 156, 0.4), 0 0 9px 3px rgba(27, 253, 156, 0.1);
+    box-shadow: inset 0 0 10px rgba(27, 170, 253, 0.4), 0 0 9px 3px rgba(27, 170, 253, 0.1);
    }
    
-   button:hover {
+   a:hover {
     color: #82e4ff;
     box-shadow: inset 0 0 10px rgba(27, 253, 156, 0.6), 0 0 9px 3px rgba(27, 253, 156, 0.2);
    }
    
-   button:before {
+   a:before {
     content: "";
     position: absolute;
     left: -4em;
@@ -52,7 +52,7 @@ video {
     background: linear-gradient(to right, transparent 1%, rgba(27, 253, 156, 0.1) 40%,rgba(27, 253, 156, 0.1) 60% , transparent 100%);
    }
    
-   button:hover:before {
+   a:hover:before {
     transform: translateX(15em);
    }
 
@@ -63,3 +63,38 @@ video {
 	/*grid-template-columns: 1fr 1fr 1fr 1fr 1fr;*/
 	grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); 
    }
+
+   .glow {
+    font-size: 2.5rem;
+    color: #fff;
+    text-align: center;
+    -webkit-animation: glow 1s ease-in-out infinite alternate;
+    -moz-animation: glow 1s ease-in-out infinite alternate;
+    animation: glow 1s ease-in-out infinite alternate;
+  }
+  
+  @-webkit-keyframes glow {
+    from {
+      text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #8e00e6, 0 0 40px #8e00e6, 0 0 50px #a500e6, 0 0 60px #8e00e6, 0 0 70px #8e00e6;
+    }
+    to {
+      text-shadow: 0 0 20px #fff, 0 0 30px #7c4dff, 0 0 40px #7c4dff, 0 0 50px #7c4dff, 0 0 60px #7c4dff, 0 0 70px #7c4dff, 0 0 80px #7c4dff;
+    }
+  }
+
+  .videosize {
+   
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: -1;
+  
+   
+     
+    
+}
