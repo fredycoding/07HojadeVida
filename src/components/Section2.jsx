@@ -12,7 +12,7 @@ export const Section2 = () => {
                 Programmer and Developer with more than 18 years of experience in Back-End, Front-End (FullStack),Technologies: PYTHON, DJANGO, JAVASCRIPT, REACT, .NET, JAVA, C++ </p>
               <p className='mt-1 text-orange-100 text-lg'>Bogotá, Colombia</p>
               <p className='mt-1 text-orange-100 text-lg'>(571) 456-7891</p>
-              <p className='mt-1 text-orange-100 text-lg font-thin'>creandoappscolombia@gmail.com</p>
+              <p className='mt-1 text-orange-100 text-lg'>creandoappscolombia@gmail.com</p>
             </div>
           </div>
         </div>
