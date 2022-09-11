@@ -1,26 +1,19 @@
 import React, { useState, useEffect } from 'react'
+import { BrowserView, MobileView} from 'react-device-detect'
+import imagenFondo from '../assets/backgroundImage.jpg'
+
 
 
 export const VideoFondo = () => {
-  const [isMobile, setIsMobile] = useState(false)
-
-//choose the screen size 
-const handleResize = () => {
-  if (window.innerWidth < 720) {
-      setIsMobile(true)
- 
-  } else {
-      setIsMobile(false)
-      
-  }
-}
-
-// create an event listener
-useEffect(() => {
-  window.addEventListener("resize", handleResize)
-})
 
   return (
-    <video src="src/assets/bgvideo7.m4v" autoplay="true" muted="true" loop="true"></video>
+    <>
+      <BrowserView>
+        <video src="src/assets/bgvideo7.m4v" className='videosize -ml-10' autoPlay={true} muted={true} loop={true}></video>
+      </BrowserView>
+      <MobileView>
+      <video src="src/assets/bgvideomobile7.mp4" className='videosize -ml-10' autoPlay={true} muted={true} loop={true}></video>
+      </MobileView>
+    </>
   )
 }

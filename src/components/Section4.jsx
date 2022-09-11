@@ -5,7 +5,7 @@ export const Section4 = () => {
     
     <>
     
-    <h1 className='text-5xl text-slate-900'>Section4</h1>
+    <h1 className='text-5xl text-slate-900 title-section'>Section4</h1>
     
     </>
   )
