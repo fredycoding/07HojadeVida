@@ -1,4 +1,4 @@
-
+import ContactsIcon from '@mui/icons-material/Contacts';
 
 export const Section5 = () => {
     return (
@@ -6,7 +6,7 @@ export const Section5 = () => {
 
             <div className='bg-slate-900 bg-opacity-80 border-y-[0.09rem] border-white py-40 text-center'>
                 <h1 className=' text-4xl text-slate-100 text-center title-section'>
-                    CONTACT
+                    <ContactsIcon/> CONTACT
                 </h1>
                 <div className="flex flex-col justify-center mx-10 mt-20 md:mx-96">
 
