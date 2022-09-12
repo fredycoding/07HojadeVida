@@ -1,39 +1,35 @@
-
-import { Parallax } from 'react-scroll-parallax'
-import { BotonesMenu } from './components/BotonesMenu'
-import { Section1 } from './components/Section1'
-import { Section2 } from './components/Section2'
-import { Section3 } from './components/Section3'
-import { Section4 } from './components/Section4'
-import { Section5 } from './components/Section5'
-import { VideoFondo } from './components/VideoFondo'
-
+import { Section1 } from '../src/components/Section1'
+import { Section2 } from '../src/components/Section2'
+import { Section3 } from '../src/components/Section3'
+import { Section4 } from '../src/components/Section4'
+import { Section5 } from '../src/components/Section5'
+import { VideoFondo } from '../src/components/VideoFondo'
+import { MenuResponsive } from './components/MenuResponsive'
 
 
 function App() {
-
-
   return (
-    <div>
- 
-       <VideoFondo/>
-      <Parallax>       
-          <Section1 />        
-      </Parallax>
-      <Parallax>       
-          <Section2 />        
-      </Parallax>
-      <Parallax>       
-          <Section3 />        
-      </Parallax>
-      <Parallax>       
-          <Section4 />        
-      </Parallax>
-      <Parallax>       
-          <Section5 />        
-      </Parallax>
- 
-    </div>
+    <>
+      <VideoFondo />
+      <MenuResponsive />
+      <div id="Section1">
+        <Section1 />
+      </div>
+      <div id="Section2">
+        <Section2 />
+      </div>
+      <div id="Section3">
+        <Section3 />
+      </div>
+      <div id="Section4">
+        <Section4 />
+      </div>
+      <div id="Section5">
+        <Section5 />
+      </div>
+
+    </>
+
   )
 }
 

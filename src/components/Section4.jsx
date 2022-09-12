@@ -4,11 +4,11 @@ import AssuredWorkloadIcon from '@mui/icons-material/AssuredWorkload';
 export const Section4 = () => {
   return (
 
-    <div className='w-full h-full animate__animated animate__fadeInDownBig'>
-      <div className=" bg-slate-900 bg-opacity-60 border-y-[0.09rem] border-white my-40">
+    <div className='w-full h-full animate__animated animate__fadeInDownBig backdrop-blur-sm'>
+      <div className=" bg-slate-900 bg-opacity-70 border-y-[0.09rem] border-white my-40">
         <div className='animate__animated animate__backInRight'>
           <h1 className='text-slate-200 mt-20 uppercase title-section'><AssuredWorkloadIcon/> Education</h1>
-          <div className='flex flex-row gap-20 justify-center my-10'>
+          <div className='flex flex-col px-4 md:flex-row md:gap-20 justify-center my-10'>
             <ul className='text-orange-100 text-1xl' >
               <li><ArrowRightIcon/>Tecnología de sistemas- CORUNIVERSITEC</li>
               <li><ArrowRightIcon/>Diplomado de Programación con PYTHON- UNIVERSIDAD DE MEDELLIN</li>

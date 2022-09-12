@@ -4,10 +4,10 @@ import AnalyticsIcon from '@mui/icons-material/Analytics';
 
 export const Section3 = () => {
   return (
-    <div className='w-full h-full animate__animated animate__fadeInDownBig'>
+    <div className='w-full h-full animate__animated animate__fadeInDownBig backdrop-blur-sm'>
       <div className=" bg-slate-900 bg-opacity-60 border-y-[0.09rem] border-white my-40">
         <div className='animate__animated animate__backInRight'>
-          <h1 className='text-slate-200 mt-20 uppercase title-section'><AnalyticsIcon/> Projects</h1>
+          <h1 className='text-slate-200 mt-20 uppercase title-section'><AnalyticsIcon/> Portfolio</h1>
           <div className='ajustarTarjetas gap-4'>            
             <CardJobs titulo="App Rick and Morty" texto="Application made with Javascript, calling an API to read data." imagen="https://user-images.githubusercontent.com/16197568/189462974-70607a39-98c5-4c90-825c-10767628d639.png" url="https://riackandmorty-27d93.web.app/" urlgithub="https://github.com/xbox360colombia/RickandMorty-api-AxiosJS"/>
             <CardJobs titulo="App Trello" texto="Application made with Javascript, Firebase, calling a Firestore Database for save data of To Do list." urlgithub="https://github.com/xbox360colombia/Listado_de_tareas_Firebase_Javascript" url="https://trelloexercise.web.app/" imagen="https://user-images.githubusercontent.com/16197568/180519807-fd246b4b-6898-444f-b377-6818dc433380.png" />
