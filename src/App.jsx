@@ -3,24 +3,15 @@ import { Section2 } from '../src/components/Section2'
 import { Section3 } from '../src/components/Section3'
 import { Section4 } from '../src/components/Section4'
 import { Section5 } from '../src/components/Section5'
-import { BotonesMenu } from '../src/components/BotonesMenu'
 import { VideoFondo } from '../src/components/VideoFondo'
-import { NavBarCustom } from './components/NavBarCustom'
-import { BrowserView, MobileView } from 'react-device-detect'
+import { MenuResponsive } from './components/MenuResponsive'
 
 
 function App() {
   return (
     <>
       <VideoFondo />
-      <BrowserView>
-        <BotonesMenu />
-      </BrowserView>
-      <MobileView>
-      <NavBarCustom />        
-      </MobileView>
-      
-
+      <MenuResponsive />
       <div id="Section1">
         <Section1 />
       </div>
@@ -37,8 +28,8 @@ function App() {
         <Section5 />
       </div>
 
-
     </>
+
   )
 }
 
