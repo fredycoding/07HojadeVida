@@ -9,10 +9,10 @@ function App() {
 
 
   return (
-    <div>
+    <>
      <AppNavigate/>
 
-    </div>
+    </>
   )
 }
 
