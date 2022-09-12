@@ -4,7 +4,7 @@ export const Section5 = () => {
     return (
         <>
 
-            <div className='bg-slate-900 bg-opacity-80 border-y-[0.09rem] border-white py-40 text-center'>
+            <div className='bg-slate-900 bg-opacity-80 border-y-[0.09rem] border-white py-40 text-center backdrop-blur-sm'>
                 <h1 className=' text-4xl text-slate-100 text-center title-section'>
                     <ContactsIcon/> CONTACT
                 </h1>

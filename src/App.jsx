@@ -15,24 +15,23 @@ function App() {
 
   return (
     <div>
- 
-       <VideoFondo/>
-      <Parallax>       
-          <Section1 />        
+      <VideoFondo />
+      <Parallax>
+        <Section1 />
       </Parallax>
-      <Parallax>       
-          <Section2 />        
+      <Parallax>
+        <Section2 />
       </Parallax>
-      <Parallax>       
-          <Section3 />        
+      <Parallax>
+        <Section3 />
       </Parallax>
-      <Parallax>       
-          <Section4 />        
+      <Parallax>
+        <Section4 />
       </Parallax>
-      <Parallax>       
-          <Section5 />        
+      <Parallax>
+        <Section5 />
       </Parallax>
- 
+
     </div>
   )
 }

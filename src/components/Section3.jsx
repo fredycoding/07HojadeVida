@@ -4,7 +4,7 @@ import AnalyticsIcon from '@mui/icons-material/Analytics';
 
 export const Section3 = () => {
   return (
-    <div className='w-full h-full animate__animated animate__fadeInDownBig'>
+    <div className='w-full h-full animate__animated animate__fadeInDownBig backdrop-blur-sm'>
       <div className=" bg-slate-900 bg-opacity-60 border-y-[0.09rem] border-white my-40">
         <div className='animate__animated animate__backInRight'>
           <h1 className='text-slate-200 mt-20 uppercase title-section'><AnalyticsIcon/> Projects</h1>
