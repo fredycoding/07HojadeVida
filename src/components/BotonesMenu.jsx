@@ -6,7 +6,9 @@ import AssuredWorkloadIcon from '@mui/icons-material/AssuredWorkload';
 import ContactsIcon from '@mui/icons-material/Contacts';
 import { Link, animateScroll as scroll } from "react-scroll";
 
+
 export const BotonesMenu = () => {
+
   return (
     <>
       <ul className='fixed flex flex-col gap-16 mt-60 ml-10 z-30 backdrop-blur-sm'>
@@ -35,7 +37,7 @@ export const BotonesMenu = () => {
             <Face6Icon/>
           </Link>
         </li>
-        <li className='leading-snug'>
+        <li className='hover:backdrop-sepia'>
         <Link
             activeClass="active"
             to="Section3"
@@ -43,33 +45,33 @@ export const BotonesMenu = () => {
             smooth={true}
             offset={-70}
             duration={800} 
-            className='btn-flotante rounded-full  border-2 p-4 border-sky-400 text-white backdrop-blur-md'             
+            className='btn-flotante rounded-full  border-2 p-4 border-sky-400 text-white '             
           >
             <AnalyticsIcon />
           </Link>
         </li>
-        <li className=''>
+        <li className='hover:backdrop-sepia'>
         <Link
             activeClass="active"
             to="Section4"
             spy={true}
             smooth={true}
             offset={-70}
-            duration={800}
-            className='btn-flotante rounded-full  border-2 p-4 border-sky-400 text-white backdrop-blur-md'              
+            duration={700}
+            className='btn-flotante rounded-full  border-2 p-4 border-sky-400 text-white'              
           >
             <AssuredWorkloadIcon />
           </Link>
         </li>
-        <li className='' >
+        <li className='hover:backdrop-sepia' >
         <Link
             activeClass="active"
             to="Section5"
             spy={true}
             smooth={true}
             offset={-70}
-            duration={800}
-            className='btn-flotante rounded-full  border-2 p-4 border-sky-400 text-white backdrop-blur-md'         
+            duration={700}
+            className='btn-flotante rounded-full  border-2 p-4 border-sky-400 text-white'         
           >
             <ContactsIcon />
           </Link>
