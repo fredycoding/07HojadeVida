@@ -22,8 +22,7 @@ export const BotonesMenu = () => {
       </li> 
       <li>
       <button href="#" className="btn-flotante rounded-full bg-blue-900 mt-10 ml-10"><ContactsIcon/></button>
-      </li>    
-    
+      </li>     
     </ul>
     </>
   )
