@@ -4,26 +4,77 @@ import Face6Icon from '@mui/icons-material/Face6';
 import AnalyticsIcon from '@mui/icons-material/Analytics';
 import AssuredWorkloadIcon from '@mui/icons-material/AssuredWorkload';
 import ContactsIcon from '@mui/icons-material/Contacts';
+import { Link, animateScroll as scroll } from "react-scroll";
+
 export const BotonesMenu = () => {
   return (
     <>
-    <ul className='fixed z-30 align-middle top-1/3 -mt-24'>
-      <li>
-      <button href="#" className="btn-flotante rounded-full bg-blue-900 ml-10"><OtherHousesIcon/></button>
-      </li>
-      <li>
-      <button href="#" className="btn-flotante rounded-full bg-blue-900 mt-10 ml-10"><Face6Icon/></button>
-      </li>
-      <li>
-      <button href="#" className="btn-flotante rounded-full bg-blue-900 mt-10 ml-10"><AnalyticsIcon/></button>
-      </li> 
-      <li>
-      <button href="#" className="btn-flotante rounded-full bg-blue-900 mt-10 ml-10"><AssuredWorkloadIcon/></button>
-      </li> 
-      <li>
-      <button href="#" className="btn-flotante rounded-full bg-blue-900 mt-10 ml-10"><ContactsIcon/></button>
-      </li>     
-    </ul>
+      <ul className='fixed flex flex-col gap-16 mt-60 ml-10 z-30 backdrop-blur-sm'>
+        <li className='hover:backdrop-sepia'>
+          <Link
+            activeClass="active"
+            to="Section1"
+            spy={true}
+            smooth={true}
+            offset={-70}
+            duration={800} 
+            className='btn-flotante rounded-full  border-2 p-4 border-sky-400 text-white '       
+          >
+            <OtherHousesIcon />
+          </Link>
+        </li>
+        <li className='hover:backdrop-sepia'>
+        <Link
+            activeClass="active"
+            to="Section2"
+            spy={true}
+            smooth={true}
+            offset={-70} 
+            className='btn-flotante rounded-full  border-2 p-4 border-sky-400 text-white'                        
+          >
+            <Face6Icon/>
+          </Link>
+        </li>
+        <li className='leading-snug'>
+        <Link
+            activeClass="active"
+            to="Section3"
+            spy={true}
+            smooth={true}
+            offset={-70}
+            duration={800} 
+            className='btn-flotante rounded-full  border-2 p-4 border-sky-400 text-white backdrop-blur-md'             
+          >
+            <AnalyticsIcon />
+          </Link>
+        </li>
+        <li className=''>
+        <Link
+            activeClass="active"
+            to="Section4"
+            spy={true}
+            smooth={true}
+            offset={-70}
+            duration={800}
+            className='btn-flotante rounded-full  border-2 p-4 border-sky-400 text-white backdrop-blur-md'              
+          >
+            <AssuredWorkloadIcon />
+          </Link>
+        </li>
+        <li className='' >
+        <Link
+            activeClass="active"
+            to="Section5"
+            spy={true}
+            smooth={true}
+            offset={-70}
+            duration={800}
+            className='btn-flotante rounded-full  border-2 p-4 border-sky-400 text-white backdrop-blur-md'         
+          >
+            <ContactsIcon />
+          </Link>
+        </li>
+      </ul>
     </>
   )
 }
