@@ -1,7 +1,7 @@
 
 import { Parallax } from 'react-scroll-parallax'
 
-import { AppNavigate } from './router/AppNavigate'
+import { AppNavigate } from './routes/AppNavigate'
 
 
 
