@@ -134,3 +134,33 @@ video {
 	box-shadow: 0px 0px 20px rgba(0, 255, 213, 0.801);
   color:aqua;
 }
+
+.section1-class:hover + .home-class {
+  display: block;
+  float:right;
+  margin-left: 10px;
+}
+
+.section2-class:hover + .profile-class {
+  display: block;
+  float:right;
+  margin-left: 10px;
+}
+
+.section3-class:hover + .portfolio-class {
+  display: block;
+  float:right;
+  margin-left: 10px;
+}
+
+.section4-class:hover + .education-class {
+  display: block;
+  float:right;
+  margin-left: 10px;
+}
+
+.section5-class:hover + .contact-class {
+  display: block;
+  float:right;
+  margin-left: 10px;
+}

@@ -20,10 +20,10 @@ export const BotonesMenu = () => {
             smooth={true}
             offset={-70}
             duration={800} 
-            className='btn-flotante rounded-full  border-2 p-4 border-sky-400 text-white '       
+            className='btn-flotante section1-class rounded-full  border-2 p-4 border-sky-400 text-white hover:home-class-block '       
           >
             <OtherHousesIcon />
-          </Link>
+          </Link> <span className='home-class text-white font-bold hidden'>Home</span>
         </li>
         <li className='hover:backdrop-sepia'>
         <Link
@@ -32,10 +32,10 @@ export const BotonesMenu = () => {
             spy={true}
             smooth={true}
             offset={-70} 
-            className='btn-flotante rounded-full  border-2 p-4 border-sky-400 text-white'                        
+            className='btn-flotante section2-class rounded-full  border-2 p-4 border-sky-400 text-white'                        
           >
             <Face6Icon/>
-          </Link>
+          </Link> <span className='profile-class text-white font-bold hidden'>Profile</span>
         </li>
         <li className='hover:backdrop-sepia'>
         <Link
@@ -45,10 +45,10 @@ export const BotonesMenu = () => {
             smooth={true}
             offset={-70}
             duration={800} 
-            className='btn-flotante rounded-full  border-2 p-4 border-sky-400 text-white '             
+            className='btn-flotante section3-class rounded-full  border-2 p-4 border-sky-400 text-white'             
           >
             <AnalyticsIcon />
-          </Link>
+          </Link> <span className='portfolio-class text-white font-bold hidden'>Portfolio</span>
         </li>
         <li className='hover:backdrop-sepia'>
         <Link
@@ -58,10 +58,10 @@ export const BotonesMenu = () => {
             smooth={true}
             offset={-70}
             duration={700}
-            className='btn-flotante rounded-full  border-2 p-4 border-sky-400 text-white'              
+            className='btn-flotante section4-class rounded-full  border-2 p-4 border-sky-400 text-white'              
           >
             <AssuredWorkloadIcon />
-          </Link>
+          </Link> <span className='education-class text-white font-bold hidden'>Education</span>
         </li>
         <li className='hover:backdrop-sepia' >
         <Link
@@ -71,10 +71,10 @@ export const BotonesMenu = () => {
             smooth={true}
             offset={-70}
             duration={700}
-            className='btn-flotante rounded-full  border-2 p-4 border-sky-400 text-white'         
+            className='btn-flotante section5-class rounded-full  border-2 p-4 border-sky-400 text-white'         
           >
             <ContactsIcon />
-          </Link>
+          </Link> <span className='contact-class text-white font-bold hidden'>Contact</span>
         </li>
       </ul>
     </>
